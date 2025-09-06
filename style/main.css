@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    background: #000;
+    display: flex;
+}
+.logo{
+    color: white;
+}
+.link li a{
+    color: aliceblue;
+}
