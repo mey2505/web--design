@@ -2,13 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
 .all{
     background: #000;
     display: flex;
+    justify-content: space-between;
 }
 .logo{
     color: white;
 }
-.link li a{
-    color: aliceblue;
+.logo p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+.link li a:hover{
+    color: blue;
+}
+.link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    padding-right: 450px;
+    gap: 20px;
+    font-size: 30px;
+    
+
+}
+
+ul.link li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
 }
