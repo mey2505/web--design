@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 .all{
@@ -128,13 +131,23 @@ ul.link li a {
     margin-left: 75px;
     margin-top: 50px;
     border-radius: 20px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    transition: all .3s ease-in-out;
+
 }
+.card:hover{
+     transform: translateY(-10px);
+     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
+}
+
 .pic1 {
-    background:rgba(255, 255, 255, 0.902);
-    width: 370px;
-    height: 340px;
+    /* background:rgba(255, 255, 255, 0.902); */
+    background: white;
+    width: 350px;
+    height: 300px;
     /* overflow: hidden; */
-    border-radius: 20px;
+    border-radius: 18px;
 }
 .pic1 img{
     /* transform: scale(1); */
@@ -147,5 +160,32 @@ ul.link li a {
 }
 .Turkey{
     color: #fff;
+    text-align: center;
+    padding: 0px 20px;
+
+}.Turkey p{
+    padding-top: 10px;
+    font-size: 15px;
+}.Turkey h2{
+    padding-top: 20px;
+
+}
+.price{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
     
+}
+.New{
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    /* padding-top: 10px; */
+    background: gold;
+    
+}
+.co img{
+    height: 270px;
+    padding-top: 10px;
 }
