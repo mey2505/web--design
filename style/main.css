@@ -16,16 +16,32 @@
     font-size: 28px;
     font-weight: 600;
     color: #fff;
+    padding-left: 100px;
 }
 .link li a:hover{
     color: blue;
+}
+.or{
+    padding: 10px 15px;
+    margin-right: 70px;
+    border-radius: 10px;
+    background: gold;
+    margin-top: 8px;
+    
+}
+.acc{
+    display: flex;
+    gap: 30px;
+    /* background:pink; */
+    padding-top: 10px;
+    padding-left: 70px;
 }
 .link {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     display: flex;
     list-style: none;
-    padding-right: 450px;
+    padding-left: 150px;
     gap: 20px;
     font-size: 30px;
     
@@ -41,4 +57,95 @@ ul.link li a {
     color: #fff;
     padding: 5px 10px;
     transition: color 0.3s ease;
+}
+
+.material-symbols-outlined{
+    color: #fff;
+    /* background: blue; */
+    font-size: 320px;
+
+}
+.cart{
+    color: white;
+}
+.all main{
+    background: #000;
+}
+.text p{
+    color: #fff;
+}
+.big{
+    font-family: 'Dancing Script', cursive;
+    padding-left: 130px;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.small{
+    padding-top: 30px;
+    padding-left: 60px;     
+    font-size: 20px;
+}
+.order{
+    padding: 16px 50px;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 10px;
+    background: gold;
+    /* color: #fff; */
+    color: black;
+    font-weight:700;
+    font-size: 20px;
+}
+
+.text{
+    padding-left: 20px;
+    padding-top: 170px;
+}
+.image img{
+    width: 630px;
+    padding-top: 30px;
+}
+.allcard{
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* background: pink; */
+    height: 200px;
+}
+.our{
+    text-align: center ;
+    font-size: 50px;
+    margin-top: 10px;
+
+
+    
+}
+.card{
+    background: rgba(0, 0, 0, 0.876);
+    
+    width: 350px;
+    height: 500px;
+    margin-left: 75px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.pic1 {
+    background:rgba(255, 255, 255, 0.902);
+    width: 370px;
+    height: 340px;
+    /* overflow: hidden; */
+    border-radius: 20px;
+}
+.pic1 img{
+    /* transform: scale(1); */
+    width: 80%;
+    height: 80%;
+    /* object-fit: cover; */
+    padding-left: 30px;
+    padding-top: 40px;
+
+}
+.Turkey{
+    color: #fff;
+    
 }
