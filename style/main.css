@@ -8,7 +8,8 @@ html {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-
+    
+;
 
 
 }
@@ -1034,7 +1035,7 @@ p {
   }
   
   .imageoffer{
-    background: #000;
+    /* background: #000; */
     margin-left: 100px;
   }
   
